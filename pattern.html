@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern</title>
+</head>
+
+<body>
+    <script>
+        // var i , j;
+        // for ( i = 5; i >= 1 ; i--) {
+        //     // for(k=1 ; k <= (5 - i); k++){
+        //     //     document.write("&nbsp;")
+        //     // }
+        //     for(j=1 ; j<=i ; j++){
+        //         document.write(j)
+        //     }            
+        //     document.write("<br>")
+        // }
+
+
+        // var i;
+        // var j;
+        // var k = 5;
+        // var l;
+
+        // for(i=1 ; i<=5 ; i++){
+        //     l = k;
+        //     for(j=1 ; j<=i ; j++){
+        //         document.write(l + "&nbsp;&nbsp;")
+        //         l++;
+        //     }
+        //     k = k - 1;
+        //     document.write("<br>")
+        // }
+
+
+        var num;
+        var no = prompt("Please provide a number for the no of rows to be print in a pattern...");
+        for (var m = 1; m <= no; m++) {
+            for (var n = 1; n <= m; n++) {
+                document.write("0" + n + " ");
+            }
+            document.write("<br />");
+        }
+    </script>
+</body>
+
+</html>
